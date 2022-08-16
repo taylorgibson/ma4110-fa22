@@ -1,0 +1,11 @@
+test = {   'name': 'q1_7',
+    'points': None,
+    'suites': [   {   'cases': [   {'code': '>>> expected_proportion_correct == expected_proportion_incorrect\nTrue', 'hidden': False, 'locked': False},
+                                   {'code': '>>> len(np.unique(model_proportions)) == 1\nTrue', 'hidden': False, 'locked': False},
+                                   {'code': '>>> sum(model_proportions) == 1\nTrue', 'hidden': False, 'locked': False},
+                                   {'code': '>>> type(simulation_proportion_correct) == float\nTrue', 'hidden': False, 'locked': False},
+                                   {'code': '>>> 0 <= one_statistic <= 25\nTrue', 'hidden': False, 'locked': False}],
+                      'scored': True,
+                      'setup': '',
+                      'teardown': '',
+                      'type': 'doctest'}]}
