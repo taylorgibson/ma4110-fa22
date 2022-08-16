@@ -1,0 +1,10 @@
+test = {   'name': 'q2_2',
+    'points': [0, 0],
+    'suites': [   {   'cases': [   {   'code': ">>> # It looks like your simulation isn't random\n>>> np.std([simulate_visited_area_codes() for _ in range(1000)]) > 0\nTrue",
+                                       'hidden': False,
+                                       'locked': False},
+                                   {'code': '>>> # The sum of the items in model_proportions should be 1\n>>> sum(model_proportions) == 1\nTrue', 'hidden': False, 'locked': False}],
+                      'scored': True,
+                      'setup': '',
+                      'teardown': '',
+                      'type': 'doctest'}]}
