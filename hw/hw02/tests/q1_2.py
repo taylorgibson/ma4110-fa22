@@ -1,0 +1,11 @@
+test = {   'name': 'q1_2',
+    'points': None,
+    'suites': [   {   'cases': [   {'code': '>>> type(book_title_words) == np.ndarray\nTrue', 'hidden': False, 'locked': False},
+                                   {'code': ">>> not any([',' in text for text in book_title_words])\nTrue", 'hidden': False, 'locked': False},
+                                   {'code': ">>> 'and ' in book_title_words.item(2)\nTrue", 'hidden': False, 'locked': False},
+                                   {'code': '>>> len(book_title_words)\n3', 'hidden': False, 'locked': False},
+                                   {'code': ">>> book_title_words\narray(['Eats', 'Shoots', 'and Leaves'], dtype='<U10')", 'hidden': False, 'locked': False}],
+                      'scored': True,
+                      'setup': '',
+                      'teardown': '',
+                      'type': 'doctest'}]}
