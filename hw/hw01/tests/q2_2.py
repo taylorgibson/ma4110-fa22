@@ -1,0 +1,10 @@
+test = {   'name': 'q2_2',
+    'points': [0, 0],
+    'suites': [   {   'cases': [   {'code': ">>> # It looks like you didn't replace ... with an answer choice\n>>> characters_q2 != ...\nTrue", 'hidden': False, 'locked': False},
+                                   {   'code': ">>> # It looks like you didn't select 1, 2, or 3\n>>> # Maybe you typed in the number of periods?\n>>> characters_q1 in [1,2,3]\nTrue",
+                                       'hidden': False,
+                                       'locked': False}],
+                      'scored': True,
+                      'setup': '',
+                      'teardown': '',
+                      'type': 'doctest'}]}
