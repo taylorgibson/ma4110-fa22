@@ -1,6 +1,6 @@
 test = {   'name': 'q2_1',
     'points': None,
-    'suites': [   {   'cases': [   {'code': '>>> type(third_element) == int\nTrue', 'hidden': False, 'locked': False},
+    'suites': [   {   'cases': [   {'code': '>>> type(third_element) == int or type(third_element) == numpy.int64\nTrue', 'hidden': False, 'locked': False},
                                    {   'code': '>>> # It would appear you wrote:\n'
                                                '>>> # some_numbers.item(3)\n'
                                                '>>> # But the third element has index 2,\n'
