@@ -1,0 +1,11 @@
+test = {   'name': 'q2_1',
+    'points': None,
+    'suites': [   {   'cases': [   {'code': '>>> average_unc_stats.num_columns\n4', 'hidden': False, 'locked': False},
+                                   {'code': '>>> average_unc_stats.num_rows\n74', 'hidden': False, 'locked': False},
+                                   {'code': ">>> set(average_unc_stats.labels) == set(('School Name', 'Title', 'Age average', 'Salary average'))\nTrue", 'hidden': False, 'locked': False},
+                                   {'code': ">>> np.isclose( sum(average_unc_stats.column('Age average')), 3919.262733622144)\nTrue", 'hidden': False, 'locked': False},
+                                   {'code': ">>> np.isclose( sum(average_unc_stats.column('Salary average')), 7382472.347677045)\nTrue", 'hidden': False, 'locked': False}],
+                      'scored': True,
+                      'setup': '',
+                      'teardown': '',
+                      'type': 'doctest'}]}
